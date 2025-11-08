@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Main menu icon with submenu -->
+    <item
+        android:id="@+id/menu_main"
+        android:icon="@drawable/baseline_menu_24"
+        android:title="@string/menu"
+        app:showAsAction="always">
+
+        <!-- Submenu items -->
+        <menu>
+            <item
+                android:id="@+id/calc_standard"
+                android:title="@string/calc_standard" />
+            <item
+                android:id="@+id/cal_langeur"
+                android:title="@string/cal_langeur" />
+            <item
+                android:id="@+id/calc_scientifique"
+                android:title="@string/calc_scientifique" />
+        </menu>
+    </item>
+
+</menu>
+

@@ -122,6 +122,9 @@ public class longueur extends AppCompatActivity {
 
 
         View.OnClickListener makeActive = v -> {
+            // COULEUR
+            int activeColor = getResources().getColor(R.color.orange); // couleur active
+            int inactiveColor = getResources().getColor(R.color.black); // couleur inactive
             // set active
             active[0] = (TextView) v;
 

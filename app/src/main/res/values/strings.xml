@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">login</string>
-    <string name="editLogin">editLogin</string>
-    <string name="editPassword">editPassword</string>
+    <string name="editLogin">login is admin</string>
+    <string name="editPassword">Password is 1234</string>
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>

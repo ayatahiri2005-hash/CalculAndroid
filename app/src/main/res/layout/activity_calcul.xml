@@ -35,66 +35,6 @@
         android:orientation="horizontal"
         android:padding="4dp">  <!-- ✅ Padding instead of button margins -->
 
-        <Button
-            android:id="@+id/buttonMc"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Mc"
-            android:textSize="10sp"
-            android:layout_margin="2sp"
-
-            android:backgroundTint="#A7C7E7"/>
-
-        <Button
-            android:id="@+id/buttonMr"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="MR"
-            android:textSize="10sp"
-            android:layout_margin="2dp"
-            android:backgroundTint="#A7C7E7"/>
-
-        <Button
-            android:id="@+id/buttonMplus"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="M+"
-            android:textSize="10sp"
-            android:layout_margin="2dp"
-            android:backgroundTint="#A7C7E7"/>
-
-        <Button
-            android:id="@+id/buttonMmoin"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="M-"
-            android:textSize="10sp"
-            android:layout_margin="2dp"
-            android:backgroundTint="#A7C7E7"/>
-
-        <Button
-            android:id="@+id/buttonMs"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Ms"
-            android:textSize="10sp"
-            android:layout_margin="2dp"
-            android:backgroundTint="#A7C7E7"/>
-
-        <Button
-            android:id="@+id/buttonM"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="M"
-            android:textSize="10sp"
-            android:layout_margin="2dp"
-            android:backgroundTint="#A7C7E7"/>
 
     </LinearLayout>
 
@@ -104,16 +44,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/buttonPourcentage"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="%"
-            android:backgroundTint="#4169E1
-"
-            android:layout_margin="2dp"
-            />
+
 
         <Button
             android:id="@+id/buttonCe"
@@ -131,6 +62,14 @@
             android:layout_weight="1"
             android:text="C"
             android:backgroundTint="#4169E1"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/buttonDiv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/div"
+            android:backgroundTint="#FF9800"
             android:layout_margin="2dp"/>
 
         <Button
@@ -152,41 +91,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button1x"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="1/x"
-            android:backgroundTint="#4169E1"
-            android:layout_margin="2dp"/>
 
-        <Button
-            android:id="@+id/buttonCarre"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="x²"
-            android:backgroundTint="#4169E1"
-            android:layout_margin="2dp"/>
 
-        <Button
-            android:id="@+id/buttonRoot"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="√x"
-            android:backgroundTint="#4169E1"
-            android:layout_margin="2dp"/>
-
-        <Button
-            android:id="@+id/buttonDiv"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/div"
-            android:backgroundTint="#FF9800"
-            android:layout_margin="2dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -331,15 +237,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/buttonSign"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="+/-"
-            android:backgroundTint="@color/white"
-            android:textColor="#141312"
-            android:layout_margin="2dp"/>
+
 
         <Button
             android:id="@+id/button0"
